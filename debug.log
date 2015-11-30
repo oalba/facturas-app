@@ -1707,3 +1707,364 @@
 - 15:57:58.246 DEBUG: Calling CefQuitMessageLoop()
 - 15:57:58.336 INFO: Ended application
 - 15:57:58.336 INFO: --------------------------------------------------------
+- 13:36:43.000 INFO: --------------------------------------------------------
+- 13:36:43.000 INFO: Started application
+- 13:36:43.000 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:36:43.000 INFO: Log level = DEBUG4
+- 13:36:43.000 INFO: Starting Mongoose 3.9c web server
+- 13:36:43.000 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:36:43.000 INFO: Index files: index.html,index.php
+- 13:36:43.000 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:36:43.000 INFO: CGI pattern: **.php$
+- 13:36:43.000 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:36:43.000 INFO: Web server url: http://127.0.0.1:60280/
+- 13:36:43.000 INFO: remote_debugging_port = 51858
+- 13:36:43.000 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=51858 --lang=es --enable-media-stream
+[1130/133644:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:36:44.030 DEBUG: App::OnContextInitialized()
+- 13:36:44.030 DEBUG: Window max width/height = 1200/832
+- 13:36:44.030 DEBUG: GetBrowserWindow(): not found, hwnd = 17629532
+- 13:36:44.030 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:36:44.030 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:36:44.030 DEBUG: StoreBrowserWindow(): hwnd = 17629532
+- 13:36:44.040 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:36:44.010 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="1660.0.1191027162\608786168" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/133645:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/133645:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:36:45.091 DEBUG: ClientHandler::OnAfterCreated()
+- 13:36:45.091 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:36:45.091 INFO: DPI, ppix = 96, ppiy = 96
+- 13:36:45.091 INFO: DPI, browser zoom level = 0
+- 13:36:45.091 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:36:45.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="1660.1.1015487021\1782229825" /prefetch:673131151
+[1130/133645:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:36:45.010 DEBUG: OnBrowserCreated()
+- 13:36:45.171 INFO: GET 200 /
+- 13:36:45.060 DEBUG: OnContextCreated()
+- 13:36:45.201 INFO: GET 200 /menu.html
+- 13:36:45.070 DEBUG: OnContextCreated()
+- 13:36:45.131 DEBUG: OnContextCreated()
+- 13:36:45.282 INFO: GET 200 /manage_facturas.php
+- 13:36:45.292 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60280/
+- 13:36:46.724 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60280/
+- 13:36:46.643 DEBUG: OnContextCreated()
+- 13:36:46.814 INFO: GET 200 /manage_facturas.php
+- 13:36:46.824 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60280/
+- 13:36:47.615 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60280/
+- 13:36:47.534 DEBUG: OnContextCreated()
+- 13:36:47.705 INFO: POST 200 /manage_facturas.php
+- 13:36:47.715 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60280/
+- 13:36:48.957 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60280/
+- 13:36:50.028 INFO: GET 302 /crear_pdf.php?cod_fac=1111
+- 13:36:50.937 DEBUG: OnContextCreated()
+- 13:36:50.118 INFO: GET 200 /manage_facturas.php
+- 13:36:50.129 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60280/
+- 13:41:55.798 DEBUG: WM_DESTROY
+- 13:41:55.798 DEBUG: RemoveBrowserWindow(): hwnd = 17629532
+- 13:41:55.798 INFO: Stopping Mongoose web server
+- 13:41:55.798 DEBUG: Mongoose webserver stopped immediately
+- 13:41:55.798 DEBUG: OnBeforeClose() hwnd=12518892
+- 13:41:55.798 DEBUG: RemoveBrowserWindow(): hwnd = 12518892
+- 13:41:55.798 DEBUG: GetBrowserWindow(): not found, hwnd = 12518892
+- 13:41:55.798 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:41:55.798 DEBUG: Calling CefQuitMessageLoop()
+- 13:41:55.848 INFO: Ended application
+- 13:41:55.848 INFO: --------------------------------------------------------
+- 13:42:28.010 INFO: --------------------------------------------------------
+- 13:42:28.010 INFO: Started application
+- 13:42:28.010 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:42:28.010 INFO: Log level = DEBUG4
+- 13:42:28.010 INFO: Starting Mongoose 3.9c web server
+- 13:42:28.010 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:42:28.010 INFO: Index files: index.html,index.php
+- 13:42:28.010 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:42:28.010 INFO: CGI pattern: **.php$
+- 13:42:28.010 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:42:28.010 INFO: Web server url: http://127.0.0.1:60602/
+- 13:42:28.010 INFO: remote_debugging_port = 60786
+- 13:42:28.010 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=60786 --lang=es --enable-media-stream
+[1130/134228:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:42:28.040 DEBUG: App::OnContextInitialized()
+- 13:42:28.040 DEBUG: Window max width/height = 1200/832
+- 13:42:28.040 DEBUG: GetBrowserWindow(): not found, hwnd = 12584428
+- 13:42:28.040 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:42:28.040 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:42:28.040 DEBUG: StoreBrowserWindow(): hwnd = 12584428
+- 13:42:28.040 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:42:29.000 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="3200.0.540192098\1475502465" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/134230:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/134230:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:42:30.091 DEBUG: ClientHandler::OnAfterCreated()
+- 13:42:30.091 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:42:30.101 INFO: DPI, ppix = 96, ppiy = 96
+- 13:42:30.101 INFO: DPI, browser zoom level = 0
+- 13:42:30.101 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:42:30.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="3200.1.372247911\2001517172" /prefetch:673131151
+[1130/134230:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:42:30.010 DEBUG: OnBrowserCreated()
+- 13:42:30.171 INFO: GET 200 /
+- 13:42:30.040 DEBUG: OnContextCreated()
+- 13:42:30.201 INFO: GET 200 /menu.html
+- 13:42:30.060 DEBUG: OnContextCreated()
+- 13:42:30.131 DEBUG: OnContextCreated()
+- 13:42:30.282 INFO: GET 200 /manage_facturas.php
+- 13:42:30.302 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60602/
+- 13:42:32.254 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60602/
+- 13:42:32.173 DEBUG: OnContextCreated()
+- 13:42:32.335 INFO: POST 200 /manage_facturas.php
+- 13:42:32.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60602/
+- 13:42:34.478 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60602/
+- 13:42:35.629 INFO: GET 302 /crear_pdf.php?cod_fac=1111
+- 13:42:35.538 DEBUG: OnContextCreated()
+- 13:42:35.709 INFO: GET 200 /manage_facturas.php
+- 13:42:35.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60602/
+- 13:42:51.051 DEBUG: WM_DESTROY
+- 13:42:51.051 DEBUG: RemoveBrowserWindow(): hwnd = 12584428
+- 13:42:51.051 INFO: Stopping Mongoose web server
+- 13:42:51.051 DEBUG: Mongoose webserver stopped immediately
+- 13:42:51.051 DEBUG: OnBeforeClose() hwnd=9044738
+- 13:42:51.051 DEBUG: RemoveBrowserWindow(): hwnd = 9044738
+- 13:42:51.051 DEBUG: GetBrowserWindow(): not found, hwnd = 9044738
+- 13:42:51.051 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:42:51.051 DEBUG: Calling CefQuitMessageLoop()
+- 13:42:51.091 INFO: Ended application
+- 13:42:51.091 INFO: --------------------------------------------------------
+- 13:43:14.000 INFO: --------------------------------------------------------
+- 13:43:14.000 INFO: Started application
+- 13:43:14.000 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:43:14.000 INFO: Log level = DEBUG4
+- 13:43:14.000 INFO: Starting Mongoose 3.9c web server
+- 13:43:14.000 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:43:14.000 INFO: Index files: index.html,index.php
+- 13:43:14.000 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:43:14.000 INFO: CGI pattern: **.php$
+- 13:43:14.000 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:43:14.000 INFO: Web server url: http://127.0.0.1:60613/
+- 13:43:14.000 INFO: remote_debugging_port = 63558
+- 13:43:14.000 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=63558 --lang=es --enable-media-stream
+[1130/134314:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:43:14.030 DEBUG: App::OnContextInitialized()
+- 13:43:14.030 DEBUG: Window max width/height = 1200/832
+- 13:43:14.030 DEBUG: GetBrowserWindow(): not found, hwnd = 3474050
+- 13:43:14.030 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:43:14.030 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:43:14.030 DEBUG: StoreBrowserWindow(): hwnd = 3474050
+- 13:43:14.040 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:43:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="2856.0.1572432118\1250800590" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/134315:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/134315:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:43:15.091 DEBUG: ClientHandler::OnAfterCreated()
+- 13:43:15.091 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:43:15.091 INFO: DPI, ppix = 96, ppiy = 96
+- 13:43:15.091 INFO: DPI, browser zoom level = 0
+- 13:43:15.101 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:43:15.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="2856.1.2077594520\890975651" /prefetch:673131151
+[1130/134315:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:43:15.010 DEBUG: OnBrowserCreated()
+- 13:43:15.161 INFO: GET 200 /
+- 13:43:15.060 DEBUG: OnContextCreated()
+- 13:43:15.201 INFO: GET 200 /menu.html
+- 13:43:15.080 DEBUG: OnContextCreated()
+- 13:43:15.120 DEBUG: OnContextCreated()
+- 13:43:15.271 INFO: GET 200 /manage_facturas.php
+- 13:43:15.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60613/
+- 13:43:16.002 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60613/
+- 13:43:16.921 DEBUG: OnContextCreated()
+- 13:43:16.083 INFO: GET 200 /manage_facturas.php
+- 13:43:16.083 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60613/
+- 13:43:17.595 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60613/
+- 13:43:17.524 DEBUG: OnContextCreated()
+- 13:43:17.695 INFO: POST 200 /manage_facturas.php
+- 13:43:17.725 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60613/
+- 13:43:18.947 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60613/
+- 13:43:20.088 INFO: GET 302 /crear_pdf.php?cod_fac=1111
+- 13:43:20.007 DEBUG: OnContextCreated()
+- 13:43:20.178 INFO: GET 200 /manage_facturas.php
+- 13:43:20.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60613/
+- 13:44:15.218 DEBUG: WM_DESTROY
+- 13:44:15.218 DEBUG: RemoveBrowserWindow(): hwnd = 3474050
+- 13:44:15.218 INFO: Stopping Mongoose web server
+- 13:44:15.218 DEBUG: Mongoose webserver stopped immediately
+- 13:44:15.218 DEBUG: OnBeforeClose() hwnd=4261004
+- 13:44:15.218 DEBUG: RemoveBrowserWindow(): hwnd = 4261004
+- 13:44:15.218 DEBUG: GetBrowserWindow(): not found, hwnd = 4261004
+- 13:44:15.218 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:44:15.218 DEBUG: Calling CefQuitMessageLoop()
+- 13:44:15.248 INFO: Ended application
+- 13:44:15.248 INFO: --------------------------------------------------------
+- 13:44:24.000 INFO: --------------------------------------------------------
+- 13:44:24.000 INFO: Started application
+- 13:44:24.000 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:44:24.000 INFO: Log level = DEBUG4
+- 13:44:24.000 INFO: Starting Mongoose 3.9c web server
+- 13:44:24.000 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:44:24.000 INFO: Index files: index.html,index.php
+- 13:44:24.000 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:44:24.000 INFO: CGI pattern: **.php$
+- 13:44:24.000 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:44:24.010 INFO: Web server url: http://127.0.0.1:60631/
+- 13:44:24.010 INFO: remote_debugging_port = 54905
+- 13:44:24.010 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=54905 --lang=es --enable-media-stream
+[1130/134424:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:44:24.040 DEBUG: App::OnContextInitialized()
+- 13:44:24.040 DEBUG: Window max width/height = 1200/832
+- 13:44:24.040 DEBUG: GetBrowserWindow(): not found, hwnd = 19661992
+- 13:44:24.040 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:44:24.040 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:44:24.040 DEBUG: StoreBrowserWindow(): hwnd = 19661992
+- 13:44:24.050 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:44:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="2252.0.1152179402\159182849" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/134425:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/134425:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:44:25.092 DEBUG: ClientHandler::OnAfterCreated()
+- 13:44:25.092 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:44:25.102 INFO: DPI, ppix = 96, ppiy = 96
+- 13:44:25.102 INFO: DPI, browser zoom level = 0
+- 13:44:25.102 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:44:25.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="2252.1.1784325409\1288593653" /prefetch:673131151
+[1130/134425:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:44:25.010 DEBUG: OnBrowserCreated()
+- 13:44:25.172 INFO: GET 200 /
+- 13:44:25.040 DEBUG: OnContextCreated()
+- 13:44:25.222 INFO: GET 200 /menu.html
+- 13:44:25.090 DEBUG: OnContextCreated()
+- 13:44:25.160 DEBUG: OnContextCreated()
+- 13:44:25.342 INFO: GET 200 /manage_facturas.php
+- 13:44:25.342 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60631/
+- 13:44:27.075 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60631/
+- 13:44:27.993 DEBUG: OnContextCreated()
+- 13:44:27.165 INFO: POST 200 /manage_facturas.php
+- 13:44:27.195 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60631/
+- 13:44:28.356 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60631/
+- 13:44:29.438 INFO: GET 302 /crear_pdf.php?cod_fac=1111
+- 13:44:29.396 DEBUG: OnContextCreated()
+- 13:44:29.568 INFO: GET 200 /manage_facturas.php
+- 13:44:29.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60631/
+- 13:44:40.684 DEBUG: WM_DESTROY
+- 13:44:40.684 DEBUG: RemoveBrowserWindow(): hwnd = 19661992
+- 13:44:40.684 INFO: Stopping Mongoose web server
+- 13:44:40.684 DEBUG: Mongoose webserver stopped immediately
+- 13:44:40.684 DEBUG: OnBeforeClose() hwnd=9635200
+- 13:44:40.684 DEBUG: RemoveBrowserWindow(): hwnd = 9635200
+- 13:44:40.684 DEBUG: GetBrowserWindow(): not found, hwnd = 9635200
+- 13:44:40.684 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:44:40.684 DEBUG: Calling CefQuitMessageLoop()
+- 13:44:40.734 INFO: Ended application
+- 13:44:40.734 INFO: --------------------------------------------------------
+- 13:44:56.000 INFO: --------------------------------------------------------
+- 13:44:56.000 INFO: Started application
+- 13:44:56.000 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:44:56.000 INFO: Log level = DEBUG4
+- 13:44:56.000 INFO: Starting Mongoose 3.9c web server
+- 13:44:56.000 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:44:56.000 INFO: Index files: index.html,index.php
+- 13:44:56.000 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:44:56.000 INFO: CGI pattern: **.php$
+- 13:44:56.000 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:44:56.000 INFO: Web server url: http://127.0.0.1:60647/
+- 13:44:56.000 INFO: remote_debugging_port = 50936
+- 13:44:56.000 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=50936 --lang=es --enable-media-stream
+[1130/134456:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:44:56.040 DEBUG: App::OnContextInitialized()
+- 13:44:56.040 DEBUG: Window max width/height = 1200/832
+- 13:44:56.040 DEBUG: GetBrowserWindow(): not found, hwnd = 3736098
+- 13:44:56.040 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:44:56.040 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:44:56.040 DEBUG: StoreBrowserWindow(): hwnd = 3736098
+- 13:44:56.080 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:44:56.000 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="6116.0.1427627475\1232544498" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/134457:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/134457:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:44:57.151 DEBUG: ClientHandler::OnAfterCreated()
+- 13:44:57.151 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:44:57.151 INFO: DPI, ppix = 96, ppiy = 96
+- 13:44:57.161 INFO: DPI, browser zoom level = 0
+- 13:44:57.171 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:44:57.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="6116.1.118594759\1840669771" /prefetch:673131151
+[1130/134457:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:44:57.010 DEBUG: OnBrowserCreated()
+- 13:44:57.251 INFO: GET 200 /
+- 13:44:57.060 DEBUG: OnContextCreated()
+- 13:44:57.281 INFO: GET 200 /menu.html
+- 13:44:57.070 DEBUG: OnContextCreated()
+- 13:44:57.120 DEBUG: OnContextCreated()
+- 13:44:57.362 INFO: GET 200 /manage_facturas.php
+- 13:44:57.372 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60647/
+- 13:45:00.216 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60647/
+- 13:45:00.065 DEBUG: OnContextCreated()
+- 13:45:00.336 INFO: POST 200 /manage_facturas.php
+- 13:45:00.386 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60647/
+- 13:45:01.497 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60647/
+- 13:45:02.689 INFO: GET 302 /crear_pdf.php?cod_fac=1111
+- 13:45:02.518 DEBUG: OnContextCreated()
+- 13:45:03.769 INFO: GET 200 /manage_facturas.php
+- 13:45:03.779 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60647/
+- 13:48:32.740 DEBUG: WM_DESTROY
+- 13:48:32.740 DEBUG: RemoveBrowserWindow(): hwnd = 3736098
+- 13:48:32.740 INFO: Stopping Mongoose web server
+- 13:48:32.740 DEBUG: Mongoose webserver stopped immediately
+- 13:48:32.740 DEBUG: OnBeforeClose() hwnd=11338926
+- 13:48:32.740 DEBUG: RemoveBrowserWindow(): hwnd = 11338926
+- 13:48:32.740 DEBUG: GetBrowserWindow(): not found, hwnd = 11338926
+- 13:48:32.740 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:48:32.740 DEBUG: Calling CefQuitMessageLoop()
+- 13:48:32.770 INFO: Ended application
+- 13:48:32.770 INFO: --------------------------------------------------------
+- 13:48:37.000 INFO: --------------------------------------------------------
+- 13:48:37.000 INFO: Started application
+- 13:48:37.000 INFO: Logging to: C:\Users\odei\Downloads\facturas-app\debug.log
+- 13:48:37.000 INFO: Log level = DEBUG4
+- 13:48:37.000 INFO: Starting Mongoose 3.9c web server
+- 13:48:37.000 INFO: WWW directory: C:\Users\odei\Downloads\facturas-app\www
+- 13:48:37.000 INFO: Index files: index.html,index.php
+- 13:48:37.000 INFO: CGI interpreter: C:\Users\odei\Downloads\facturas-app\php\php-cgi.exe
+- 13:48:37.000 INFO: CGI pattern: **.php$
+- 13:48:37.000 INFO: CGI environment variables set: TMP=C:\Users\odei\AppData\Local\Temp\,TEMP=C:\Users\odei\AppData\Local\Temp\,TMPDIR=C:\Users\odei\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=33.0
+- 13:48:37.000 INFO: Web server url: http://127.0.0.1:60665/
+- 13:48:37.000 INFO: remote_debugging_port = 53506
+- 13:48:37.020 DEBUG: Command line string for the browser process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --remote-debugging-port=53506 --lang=es --enable-media-stream
+[1130/134837:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+- 13:48:37.050 DEBUG: App::OnContextInitialized()
+- 13:48:37.050 DEBUG: Window max width/height = 1200/832
+- 13:48:37.050 DEBUG: GetBrowserWindow(): not found, hwnd = 11404462
+- 13:48:37.050 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:48:37.050 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:48:37.050 DEBUG: StoreBrowserWindow(): hwnd = 11404462
+- 13:48:37.060 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:48:37.000 DEBUG: Command line string for the gpu-process process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=gpu-process --channel="5616.0.981486777\310600160" --no-sandbox --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --disable-image-transport-surface --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,14,27 --gpu-vendor-id=0x80ee --gpu-device-id=0xbeef --gpu-driver-vendor="Oracle Corporation" --gpu-driver-version=5.0.8.0 --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" /prefetch:822062411
+[1130/134838:ERROR:gl_surface_egl.cc(133)] eglInitialize failed with error UNKNOWN
+[1130/134838:ERROR:gl_surface_win.cc(97)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:48:38.101 DEBUG: ClientHandler::OnAfterCreated()
+- 13:48:38.101 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:48:38.101 INFO: DPI, ppix = 96, ppiy = 96
+- 13:48:38.112 INFO: DPI, browser zoom level = 0
+- 13:48:38.112 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:48:38.000 DEBUG: Command line string for the renderer process: "C:\Users\odei\Downloads\facturas-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --enable-threaded-compositing --enable-delegated-renderer --enable-deadline-scheduling --lang=es --log-file="C:\Users\odei\Downloads\facturas-app\debug.log" --enable-media-stream --disable-pepper-3d --disable-accelerated-compositing --disable-accelerated-video-decode --disable-webrtc-hw-encoding --enable-software-compositing --disable-gpu-compositing --disable-pepper-3d --channel="5616.1.171523948\1663584000" /prefetch:673131151
+[1130/134838:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+- 13:48:38.010 DEBUG: OnBrowserCreated()
+- 13:48:38.182 INFO: GET 200 /
+- 13:48:38.050 DEBUG: OnContextCreated()
+- 13:48:38.212 INFO: GET 200 /menu.html
+- 13:48:38.070 DEBUG: OnContextCreated()
+- 13:48:39.120 DEBUG: OnContextCreated()
+- 13:48:39.282 INFO: GET 200 /manage_facturas.php
+- 13:48:39.292 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60665/
+- 13:48:40.403 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60665/
+- 13:48:40.321 DEBUG: OnContextCreated()
+- 13:48:40.493 INFO: POST 200 /manage_facturas.php
+- 13:48:40.534 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60665/
+- 13:48:41.745 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60665/
+- 13:48:41.914 DEBUG: OnContextCreated()
+- 13:48:41.096 INFO: GET 200 /crear_pdf.php?cod_fac=1111
+- 13:48:41.096 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60665/
+- 13:49:05.499 DEBUG: WM_DESTROY
+- 13:49:05.499 DEBUG: RemoveBrowserWindow(): hwnd = 11404462
+- 13:49:05.499 INFO: Stopping Mongoose web server
+- 13:49:05.499 DEBUG: Mongoose webserver stopped immediately
+- 13:49:05.499 DEBUG: OnBeforeClose() hwnd=20120732
+- 13:49:05.499 DEBUG: RemoveBrowserWindow(): hwnd = 20120732
+- 13:49:05.499 DEBUG: GetBrowserWindow(): not found, hwnd = 20120732
+- 13:49:05.499 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:49:05.499 DEBUG: Calling CefQuitMessageLoop()
+- 13:49:05.560 INFO: Ended application
+- 13:49:05.560 INFO: --------------------------------------------------------

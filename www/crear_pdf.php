@@ -188,7 +188,6 @@ $objPHPExcel->setActiveSheetIndex(0)
 
             ->setCellValue('A10', 'Factura Nº: ')
             ->setCellValue('B10', $numero)
-            ->setCellValue('C10', '€')
 
             ->setCellValue('A11', 'Detalles:');
             if ($detalles != NULL) {
